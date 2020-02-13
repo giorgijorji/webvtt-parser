@@ -1,4 +1,4 @@
-# Podlove WebVTT Parser
+# Giorgijorji WebVTT Parser [Based on podlove webwtt parser]
 
 PHP library to parse WebVTT files.
 
