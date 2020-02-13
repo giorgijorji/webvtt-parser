@@ -7,10 +7,10 @@ It follows the [W3C spec](https://w3c.github.io/webvtt/), but it's not complete.
 ## Usage
 
 ```php
-use Podlove\Webvtt\Parser;
-use Podlove\Webvtt\ParserException;
+use Giorgijorji\Webvtt\Parser;
+use Giorgijorji\Webvtt\ParserException;
 
-$parser = new Podlove\Webvtt\Parser();
+$parser = new Giorgijorji\Webvtt\Parser();
 $content = "WEBVTT\n\n00:00:00.000 --> 01:22:33.440\nHello world\n\n01:22:33.440 --> 01:22:34.440\n<v Eric>Hi again\n";
 $result = $parser->parse($content);
 // [

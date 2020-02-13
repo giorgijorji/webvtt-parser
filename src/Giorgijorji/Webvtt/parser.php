@@ -1,5 +1,5 @@
 <?php
-namespace Podlove\Webvtt;
+namespace Giorgijorji\Webvtt;
 
 class ParserException extends \Exception {
 
@@ -137,7 +137,11 @@ class Parser {
 			} else if ($block_line_no > 1 && $identifier && !$start && !$end) {
 				$this->exit("missing cue timings");
 			} else {
-				$buffer .= $line;
+                if (!empty($buffer)) {
+                    $buffer .= nl2br(PHP_EOL . $line);
+                } else {
+                    $buffer .= $line;
+                }
 			}
 		} while (!$this->is_end_reached());
 

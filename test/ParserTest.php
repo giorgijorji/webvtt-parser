@@ -1,8 +1,8 @@
 <?php
 use PHPUnit\Framework\TestCase;
 
-use Podlove\Webvtt\Parser;
-use Podlove\Webvtt\ParserException;
+use Giorgijorji\Webvtt\Parser;
+use Giorgijorji\Webvtt\ParserException;
 
 class ParserTest extends TestCase
 {
