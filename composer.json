@@ -1,15 +1,15 @@
 {
-    "name": "podlove/webvtt-parser",
+    "name": "giorgijorji/webvtt-parser",
     "type": "library",
     "description": "PHP library to parse webvtt",
-    "homepage": "https://github.com/podlove/webvtt-parser",
-    "keywords": ["podlove", "parser", "webvtt"],
+    "homepage": "https://github.com/giorgijorji/webvtt-parser",
+    "keywords": ["giorgijorji", "parser", "webvtt"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Eric Teubert",
-            "email": "eric@ericteubert.de",
-            "homepage": "https://ericteubert.de",
+            "name": "Giorgi Metivishvili",
+            "email": "giorgi.jorji@gmail.com",
+            "homepage": "https://www.facebook.com/giorgi.jorji",
             "role": "Developer"
         }
     ],
@@ -20,6 +20,6 @@
         "phpunit/phpunit": "7.*.*"
     },
     "autoload": {
-        "psr-0": { "Podlove\\Webvtt": "src/" }
+        "psr-0": { "Giorgijorji\\Webvtt": "src/" }
     }
 }
